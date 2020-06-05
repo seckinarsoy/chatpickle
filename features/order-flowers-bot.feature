@@ -12,7 +12,7 @@ Feature: OrderFlowers Bot
         * User: four pm
         * BotRegex: Okay, your roses will be ready for pickup by \d{2}:\d{2} on \d{4}-\d{2}-\d{2}.  Does this sound okay?
 
-    Scenario: Happy Path - Anonymous orders tulips for next friday at 9am but doesn't confirm and exits
+    Scenario: Happy Path - Anonymous orders tulips for next friday at 9am but does not confirm and exits
         Given the user begins a new chat with "OrderFlowers_bot"
         When they say:
         * User: I want to order flowers
